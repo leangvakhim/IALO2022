@@ -29,7 +29,7 @@ elif val == 2:
     lb = 0.0
     ub = l
     pop_size = 30
-    max_iter = 1000
+    max_iter = 100
 
     optimizer = ialo(
         wsn_cov.objective_function,
