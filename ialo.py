@@ -74,7 +74,7 @@ class ialo:
             elif t > 0.10 * self.max_iter: w = 2
             else: w = 1
 
-            I = 1 + (10 * w) * (t / self.max_iter)
+            I = 1 + (10 * w) ** (t / self.max_iter)
 
             for i in range(self.pop_size):
                 rolette_index = self.roulette_wheel_selection()
