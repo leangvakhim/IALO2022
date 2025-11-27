@@ -39,7 +39,7 @@ if val == 1:
     times = 30
 
     for bm in benchmarks:
-        print(f"\n Processing {bm['name']}...")
+        print(f"\nProcessing {bm['name']}...")
         for _ in range(times):
             optimizer = ialo(
                 bm['func'],
